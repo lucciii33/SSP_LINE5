@@ -1,0 +1,60 @@
+.container-home {
+  height: 79vh;
+}
+@media (max-width: 600px) {
+  .container-home {
+    height: 100vh;
+  }
+}
+
+.redButtonStart {
+  width: 100px;
+  height: 100px;
+  margin-top: 45px;
+}
+
+@media (max-width: 600px) {
+  .redButtonStart {
+    width: 100px;
+    height: 100px;
+    margin-top: 35px;
+  }
+}
+
+.small-text {
+  font-size: 10px;
+  margin-left: 5px;
+  color: #ad1515;
+}
+
+.no-phone {
+  display: block;
+}
+.px-controller {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.responsive-padding {
+  padding: 0px;
+}
+
+@media (max-width: 600px) {
+  .no-phone {
+    display: none;
+  }
+  .px-controller {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .responsive-padding {
+    padding: 20px;
+  }
+}
+.redButtonStart-redhalo {
+  width: 100px;
+  height: 100px;
+  margin-top: 45px;
+  box-shadow: 0 0 9px 4px white;
+  background: white;
+  border-radius: 50%;
+}

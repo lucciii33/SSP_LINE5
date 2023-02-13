@@ -1,0 +1,25 @@
+.footerBgColor {
+  background-color: #ff7c33;
+  margin: 0;
+}
+
+.footerContainer {
+  margin: 0px;
+}
+
+.footerPhoneSection {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .footerLogoSection {
+    display: none;
+  }
+
+  .footerAddressSection {
+    padding-bottom: 0.6rem;
+  }
+}

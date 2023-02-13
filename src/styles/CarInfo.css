@@ -1,0 +1,84 @@
+/* Car Info Mobile - Starts */
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+}
+
+.pencilCircleContainer {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.pencilCircle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ff7c33;
+}
+
+.formControl2 {
+  box-shadow: none !important;
+  border: 3px solid #ff7c33;
+  border-radius: 10px;
+  height: 45px;
+  width: 100%;
+}
+/* Car Info Mobile - Ends */
+
+/* Car Info Desktop - Starts */
+.buttonStyle {
+  background-color: #ff7c33;
+  color: white;
+  border-radius: 16px;
+}
+
+.carInfoStyle {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+}
+/* Car Info Desktop - Ends */
+
+/* Car Info Modal - Starts */
+.cameraIcon {
+  font-size: 0.8rem;
+}
+
+.btnModal {
+  background-color: #ff7c33;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: none;
+  padding: auto;
+}
+
+.modalVinImg {
+  border: none;
+}
+/* Car Info Modal - Ends */
+
+.onlyDesktop3 {
+  display: block;
+}
+
+.onlyPhone3 {
+  display: none;
+}
+
+@media (max-width: 1077px) {
+  .onlyDesktop3 {
+    display: none;
+  }
+
+  .onlyPhone3 {
+    display: block;
+  }
+}

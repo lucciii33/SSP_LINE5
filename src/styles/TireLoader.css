@@ -1,0 +1,77 @@
+.container-tire-loader {
+  width: 100%;
+  height: 80vh;
+}
+
+.glassBox {
+  width: 550px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.whiteBox {
+  width: 500px;
+  height: 450px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+@media (max-width: 600px) {
+  .glassBox {
+    width: 340px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+  }
+
+  .whiteBox {
+    width: 280px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 16px;
+  }
+}
+
+.tire-image-loader {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: wheel 3s infinite linear;
+}
+@media (max-width: 600px) {
+  .tire-image-loader {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: wheel 3s infinite linear;
+  }
+}
+
+@keyframes wheel {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.top-margin-controller {
+  margin-top: 200px;
+}

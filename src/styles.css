@@ -1,0 +1,155 @@
+body {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://s28126.pcdn.co/blogs/ask-experian/wp-content/uploads/The-10-Most-Popular-Vehicles-to-Lease-in-2020-1400x912-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.onlyDesktop {
+  display: block;
+}
+
+.onlyPhone {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .onlyDesktop {
+    display: none;
+  }
+
+  .onlyPhone {
+    display: block;
+  }
+}
+
+.container-sign-loader {
+  width: 100%;
+  height: 80vh;
+}
+
+.counter-color {
+  color: #ff7c33;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-20-16 {
+  font-size: 20px !important;
+}
+
+.fs-25-19 {
+  font-size: 25px !important;
+}
+
+@media (max-width: 600px) {
+  .fs-25-19 {
+    font-size: 19px !important;
+  }
+  .fs-20-16 {
+    font-size: 16px !important;
+  }
+}
+
+.fs-40 {
+  font-size: 40px !important;
+}
+
+@media (max-width: 600px) {
+  .fs-20 {
+    font-size: 20px !important;
+  }
+}
+
+.orange-button {
+  background-color: #ff7c33;
+  border-radius: 5px;
+  padding: 9px;
+  border: none;
+  width: 110px;
+}
+
+.textOnInput {
+  position: relative;
+}
+
+.textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+}
+
+.textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.marging-controller-inputs {
+  margin-right: 30px;
+}
+
+.fs-13 {
+  font-size: 13px;
+}
+
+.vinImage {
+  width: 100%;
+  height: auto;
+}
+
+.input-size-2 {
+  width: 50;
+  border-radius: 10px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-75-45 {
+  font-size: 75px;
+}
+
+.fs-40-25 {
+  font-size: 40px;
+}
+
+.fs-20-16 {
+  font-size: 20px;
+}
+
+@media (max-width: 600px) {
+  .fs-75-45 {
+    font-size: 55px;
+  }
+
+  .fs-40-25 {
+    font-size: 25px;
+  }
+
+  .fs-20-19 {
+    font-size: 19px;
+  }
+}

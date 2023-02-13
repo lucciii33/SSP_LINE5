@@ -1,0 +1,32 @@
+.glassBox-4 {
+  width: 550px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.whiteBox-4 {
+  width: 500px;
+  height: 550px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.orange-pen {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-user {
+  width: 15px;
+  height: 15px;
+}
+
+.icon-email {
+  width: 20px;
+  height: 15px;
+}

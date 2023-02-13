@@ -1,0 +1,119 @@
+.street {
+  width: 100%;
+  height: 100px;
+  background-color: #181717;
+  /* background-image: url("https://webstockreview.net/images/highway-clipart-horizontal-4.jpg"); */
+  display: block;
+  position: relative;
+  /* z-index: 1; */
+  /* animation: street 45s linear infinite;
+  background-repeat: repeat-x;
+  background-position: center; */
+}
+
+@keyframes street {
+  100% {
+    transform: translateX(3400px);
+  }
+}
+
+.yellow-line {
+  width: 100%;
+  height: 8px;
+  background-color: #dcd420;
+  position: absolute;
+}
+
+.yellow-line-1 {
+  width: 10%;
+  height: 8px;
+  background-color: #dcd420;
+  position: absolute;
+}
+
+.red-line {
+  width: 15%;
+  height: 8px;
+  background-color: #ff0000;
+}
+
+.margin-top-race-track {
+  margin-top: 1.3rem;
+}
+
+.car-image-animation {
+  width: 90px;
+  height: 90px;
+  animation: street 40s linear infinite;
+  background-repeat: repeat-x;
+  background-position: center;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.test-street {
+  width: 100%;
+  height: 80px;
+  background-image: url("./img/street.png");
+}
+
+.whiteBox-2 {
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+  overflow-x: hidden;
+}
+.glassBox-2 {
+  width: 500px;
+  height: 450px;
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+.icon-sign {
+  width: 70px;
+  height: 70px;
+}
+
+@media (max-width: 600px) {
+  .whiteBox-2 {
+    width: 265px;
+    height: 439px;
+    background-color: #fff;
+    border-radius: 16px;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .glassBox-2 {
+    width: 339px;
+    height: 507px;
+    background: rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+  }
+  .icon-sign {
+    width: 50px;
+    height: 50px;
+  }
+
+  .car-image-animation {
+    width: 90px;
+    height: 90px;
+    animation: street 60s linear infinite;
+    background-repeat: repeat-x;
+    background-position: center;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  }
+}

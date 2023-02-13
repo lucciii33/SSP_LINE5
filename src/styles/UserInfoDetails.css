@@ -1,0 +1,93 @@
+.textOnInput {
+  position: relative;
+}
+
+.textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 23px;
+  padding: 2px;
+  z-index: 1;
+}
+
+.textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.vinImage {
+  width: 100%;
+  height: auto;
+}
+.form-control {
+  box-shadow: none !important;
+  border: 3px solid #ff7c33;
+  border-radius: 10px;
+  height: 45px;
+}
+
+.large-input {
+  width: 424px;
+}
+
+.white-box-input {
+  background-color: white;
+  width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.margin-mobile {
+  margin-left: 0px;
+}
+.padding-controller-mobile {
+  padding-top: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+}
+
+.button-disable {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 9px;
+  border: none;
+  width: 110px;
+}
+
+@media (max-width: 600px) {
+  .padding-controller-mobile {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .white-box-input {
+    background-color: white;
+    width: 360px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* margin-left: 100px; */
+  }
+  .form-control {
+    box-shadow: none !important;
+    border: 3px solid #ff7c33;
+    border-radius: 10px;
+    height: 45px;
+    width: 290px;
+  }
+  .margin-mobile {
+    margin-left: 30px;
+  }
+}
